@@ -1,0 +1,3 @@
+hdfs dfs -mkdir /pigproject
+hdfs dfs -put students.txt /pigproject
+pig -x mapreduce pig_filter_script.pig

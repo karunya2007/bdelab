@@ -1,0 +1,1 @@
+hive -f hive_employee_script.hql
